@@ -1,0 +1,8 @@
+#0  RtmpConnection::RtmpConnection (this=0x5555557c8c70, rtmpServer=0x0, sockfd=22) at /home/xl/Downloads/rrr(1)/rrr/RtmpConnection.cpp:10
+#1  0x00005555555994c6 in RtmpServer::LisCb (fd=3, event=2, arg=0x7fffffffdbc0) at /home/xl/Downloads/rrr(1)/rrr/RtmpServer.cpp:41
+#2  0x00007ffff79838f8 in ?? () from /usr/lib/x86_64-linux-gnu/libevent-2.1.so.6
+#3  0x00007ffff798433f in event_base_loop () from /usr/lib/x86_64-linux-gnu/libevent-2.1.so.6
+#4  0x000055555559941f in RtmpServer::loop (this=0x7fffffffdc50) at /home/xl/Downloads/rrr(1)/rrr/RtmpServer.cpp:27
+#5  0x00005555555a58b9 in main () at /home/xl/Downloads/rrr(1)/rrr/main.cpp:7
+
+

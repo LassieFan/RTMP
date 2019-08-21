@@ -1,0 +1,138 @@
+﻿  amf.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\amf.cpp(122): error C2039: “decodeArray”: 不是“AmfDecoder”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\amf.h(89): note: 参见“AmfDecoder”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\amf.cpp(128): error C3861: “decodeInt32”: 找不到标识符
+  BufferReader.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\bufferreader.cpp(75): error C2039: “recv”: 不是“`global namespace'”的成员
+e:\我的rtmp\rtmp_server\rtmp_server\bufferreader.cpp(75): error C3861: “recv”: 找不到标识符
+  BufferWriter.cpp
+  EventLoop.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(14): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(14): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(16): error C2061: 语法错误: 标识符“TriggerEvent”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C3646: “addTimer”: 未知重写说明符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C2059: 语法错误:“(”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C2238: 意外的标记位于“;”之前
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(18): error C2061: 语法错误: 标识符“TimerId”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(19): error C2061: 语法错误: 标识符“ChannelPtr”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(20): error C2061: 语法错误: 标识符“ChannelPtr”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C3203: “shared_ptr”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Ty”，应为 real 类型
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(3): error C2572: “EventLoop::EventLoop”: 重定义默认参数 : 参数 1
+  e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(9): note: 参见“EventLoop::EventLoop”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(17): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(17): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(17): error C2061: 语法错误: 标识符“EpollTaskScheduler”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(17): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(23): error C2653: “TaskScheduler”: 不是类或命名空间名称
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(23): error C2065: “start”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(44): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(44): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(45): error C2079: “EventLoop::getTaskScheduler”使用未定义的 class“std::shared_ptr”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(49): error C2440: “return”: 无法从“_Ty”转换为“std::shared_ptr”
+          with
+          [
+              _Ty=int
+          ]
+  e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(49): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(59): error C2440: “return”: 无法从“_Ty”转换为“std::shared_ptr”
+          with
+          [
+              _Ty=int
+          ]
+  e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(59): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(62): error C2440: “return”: 无法从“nullptr”转换为“std::shared_ptr”
+  e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(62): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(77): error C2065: “ChannelPtr”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(77): error C2146: 语法错误: 缺少“)”(在标识符“channel”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(78): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(78): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(82): error C2065: “ChannelPtr”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(82): error C2065: “channel”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(82): error C2761: “void EventLoop::removeChannel(void)”: 不允许重新声明成员
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(83): error C2448: “EventLoop::removeChannel”: 函数样式初始值设定项类似函数定义
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(87): error C2039: “addTimer”: 不是“EventLoop”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(6): note: 参见“EventLoop”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(87): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(87): error C2146: 语法错误: 缺少“;”(在标识符“addTimer”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(88): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(88): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(92): error C2146: 语法错误: 缺少“)”(在标识符“timerId”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(93): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(93): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(97): error C2065: “TriggerEvent”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(97): error C2146: 语法错误: 缺少“)”(在标识符“callback”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(98): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.cpp(98): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  main.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(14): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(14): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(16): error C2061: 语法错误: 标识符“TriggerEvent”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C3646: “addTimer”: 未知重写说明符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C2059: 语法错误:“(”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(17): error C2238: 意外的标记位于“;”之前
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(18): error C2061: 语法错误: 标识符“TimerId”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(19): error C2061: 语法错误: 标识符“ChannelPtr”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(20): error C2061: 语法错误: 标识符“ChannelPtr”
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C2065: “TaskScheduler”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C2923: “std::shared_ptr”: 对于参数“_Ty”，“TaskScheduler”不是有效的 模板 类型变量
+e:\我的rtmp\rtmp_server\rtmp_server\eventloop.h(25): error C3203: “shared_ptr”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Ty”，应为 real 类型
+e:\我的rtmp\rtmp_server\rtmp_server\main.cpp(7): error C2039: “run”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.h(6): note: 参见“RtmpServer”的声明
+  RtmpConnection.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(42): error C2504: “TcpConnection”: 未定义基类
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(86): error C2039: “send”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(315): warning C4018: “>”: 有符号/无符号不匹配
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(365): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(366): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(382): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(383): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(395): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(396): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(472): error C2039: “hasPublisher”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(491): error C2039: “addSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(507): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(508): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(510): error C3861: “shared_from_this”: 找不到标识符
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(559): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(560): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(563): error C3861: “shared_from_this”: 找不到标识符
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(578): error C2039: “getSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(579): error C3536: “sessionPtr”: 初始化之前无法使用
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(581): error C3861: “shared_from_this”: 找不到标识符
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(586): error C2039: “removeSession”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(10): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(598): error C2039: “isClosed”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(658): error C2039: “isClosed”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(675): error C2039: “isClosed”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(692): error C2039: “isClosed”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(742): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(758): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(771): error C2039: “send”: 不是“RtmpConnection”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.h(41): note: 参见“RtmpConnection”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpconnection.cpp(805): warning C4244: “参数”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  RtmpServer.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.cpp(3): error C2065: “loop”: 未声明的标识符
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.cpp(3): error C2614: “RtmpServer”: 非法的成员初始化:“TcpServer”不是基或成员
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.cpp(5): error C2039: “start”: 不是“RtmpServer”的成员
+  e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.h(6): note: 参见“RtmpServer”的声明
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.cpp(7): error C3861: “LOG_INFO”: 找不到标识符
+e:\我的rtmp\rtmp_server\rtmp_server\rtmpserver.cpp(11): error C3861: “LOG_INFO”: 找不到标识符
+  TaskScheduler.cpp
+  TcpConnection.cpp
+e:\我的rtmp\rtmp_server\rtmp_server\socket.h(5): fatal error C1083: 无法打开包括文件: “sys/socket.h”: No such file or directory
+  正在生成代码...
