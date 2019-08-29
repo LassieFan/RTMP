@@ -1,3 +1,0 @@
-/home/xl/Downloads/rrr(1)/rrr/CMakeFiles/rebuild_cache.dir
-/home/xl/Downloads/rrr(1)/rrr/CMakeFiles/demo.dir
-/home/xl/Downloads/rrr(1)/rrr/CMakeFiles/edit_cache.dir
